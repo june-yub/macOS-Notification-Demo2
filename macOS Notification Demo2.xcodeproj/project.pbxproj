@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F825B6DA289A793E0017CA18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F825B6D9289A793E0017CA18 /* AppDelegate.m */; };
+		F825B6DA289A793E0017CA18 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = F825B6D9289A793E0017CA18 /* AppDelegate.mm */; };
 		F825B6DC289A793E0017CA18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F825B6DB289A793E0017CA18 /* Assets.xcassets */; };
 		F825B6DF289A793E0017CA18 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F825B6DD289A793E0017CA18 /* MainMenu.xib */; };
 		F825B6E1289A793E0017CA18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F825B6E0289A793E0017CA18 /* main.m */; };
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		F825B6D5289A793E0017CA18 /* macOS Notification Demo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "macOS Notification Demo2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F825B6D8289A793E0017CA18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F825B6D9289A793E0017CA18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F825B6D9289A793E0017CA18 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		F825B6DB289A793E0017CA18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F825B6DE289A793E0017CA18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		F825B6E0289A793E0017CA18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				F825B6D8289A793E0017CA18 /* AppDelegate.h */,
-				F825B6D9289A793E0017CA18 /* AppDelegate.m */,
+				F825B6D9289A793E0017CA18 /* AppDelegate.mm */,
 				F825B6DB289A793E0017CA18 /* Assets.xcassets */,
 				F825B6DD289A793E0017CA18 /* MainMenu.xib */,
 				F825B6E0289A793E0017CA18 /* main.m */,
@@ -133,7 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F825B6E1289A793E0017CA18 /* main.m in Sources */,
-				F825B6DA289A793E0017CA18 /* AppDelegate.m in Sources */,
+				F825B6DA289A793E0017CA18 /* AppDelegate.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +269,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2G9GHN3H28;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -295,7 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2G9GHN3H28;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
